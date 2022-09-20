@@ -1,13 +1,13 @@
 # taskmanager
 <p>As an employee with a busy schedule
- I want to be able to add important events to an HOURLY daily planner 
+ I want to be able to add important events to an HOURLY daily planner with the following features:
 
-<br>When I open the planner the current date  is displayed at the top of the calendar.
-<br>When I scroll down the page, I am presented with time blocks for standard business hours.
-<br>When I view the time blocks for that day,  each time block is color-coded to indicate whether it is in the past, present, or future.
-<br>When I click into a time block, I am able enter an event. 
-<br>When I click the save button for that time block, the text for that event is saved in local storage. 
-<br>When I refresh the page, the saved events persist.</p>
+<br>- When I open the planner the current date  is displayed at the top of the calendar.
+<br>- When I scroll down the page, I am presented with time blocks for standard business hours.
+<br>- When I view the time blocks for that day,  each time block is color-coded to indicate whether it is in the past, present, or future.
+<br>- When I click into a time block, I am able enter an event. 
+<br>- When I click the save button for that time block, the text for that event is saved in local storage. 
+<br>- When I refresh the page, the saved events persist.</p>
 
 
 
