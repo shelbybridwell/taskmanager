@@ -1,8 +1,8 @@
 function timeKeeper() {
     todayDate = moment().format('dddd, MMM Do YYYY');
     $("#todaysDate").html(todayDate);
+
     currentTime = moment().hour();
-    $("#todaysTime").html(currentTime);
 
     $(".hour-block").each(function(){
         var blockHour = parseInt($(this).attr("id").split("hour")[1]);
