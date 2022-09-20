@@ -1,8 +1,4 @@
 # taskmanager
-<br>
-## ABOUT taskmanager
-<br>
-
 <p>AS AN employee with a busy schedule
  I WANT to add important events to a daily planner SO THAT I can manage my time effectively GIVEN I am using a daily planner to create a schedule 
 <br>WHEN I open the planner THEN the current day is displayed at the top of the calendar 
@@ -27,6 +23,6 @@
 ## Resources
 [w3schools](https://www.w3schools.com/)<br>
 [jquery](https://jquery.com/)<br>
-
+[bootstrap](https://getbootstrap.com/)<br>
 
 
