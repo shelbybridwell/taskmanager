@@ -1,16 +1,6 @@
-todayDate = moment().format('dddd, MMM Do YYYY');
-$("#todaysDate").html(todayDate);
-
-$(document).ready(function () {
-        $(".saveBtn").on("click", function () {
-            
-            text = $(this).siblings(".description").val();
-            time = $(this).parent().attr("id");
-    
-            localStorage.setItem(time, text);
-        })
-
 function timeKeeper() {
+    todayDate = moment().format('dddd, MMM Do YYYY');
+    $("#todaysDate").html(todayDate);
     currentTime = moment().hour();
     $("#todaysTime").html(currentTime);
 
@@ -48,4 +38,12 @@ $("#hour16 .description").val(localStorage.getItem("hour16"));
 $("#hour17 .description").val(localStorage.getItem("hour17"));
 
 timeKeeper();
+$(document).ready(function () {
+    $(".saveBtn").on("click", function () {
+        
+        text = $(this).siblings(".description").val();
+        time = $(this).parent().attr("id");
+
+        localStorage.setItem(time, text);
+    })
 })
