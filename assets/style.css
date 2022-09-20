@@ -47,7 +47,7 @@ body {
     color: white;
   }
   
-  .current {
+  .present {
     background-color: #ff6961;
     color: white;
   }
@@ -59,10 +59,10 @@ body {
   
   .saveBtn {
     border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06aed5;
-    color: white;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background-color: turquoise;
+    color:black;
   }
   
   .saveBtn i:hover {
