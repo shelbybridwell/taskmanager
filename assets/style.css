@@ -18,12 +18,14 @@ body {
     background-color: transparent;
     color: black;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 4px dashed black;
+    padding: 1px;
   }
+
   .container{
     padding-bottom: 30px;
   }
-  
+
   .description {
     white-space: pre-wrap;
   }
@@ -37,12 +39,16 @@ body {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
+    margin-bottom: 7px;
   }
   
   .hour {
     background-color: #ffffff;
     color: #000000;
-    border-top: 1px dashed #000000;
+    border-right: 1px solid black;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    background-color: rgba(255, 213, 0, 0.903);
   }
   
   .past {
