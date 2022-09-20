@@ -1,4 +1,5 @@
 function timeKeeper() {
+// tracks current time
     todayDate = moment().format('dddd, MMM Do YYYY');
     $("#todaysDate").html(todayDate);
 
@@ -6,7 +7,7 @@ function timeKeeper() {
 
     $(".hour-block").each(function(){
         var blockHour = parseInt($(this).attr("id").split("hour")[1]);
-
+//changes background based on time
         if (blockHour < currentTime) {
             $(this).removeClass("future");
             $(this).removeClass("present");
@@ -26,6 +27,7 @@ function timeKeeper() {
     
     })
 }
+//gets local storage info
 $("#hour8 .description").val(localStorage.getItem("hour8"));
 $("#hour9 .description").val(localStorage.getItem("hour9"));
 $("#hour10 .description").val(localStorage.getItem("hour10"));
@@ -38,12 +40,13 @@ $("#hour16 .description").val(localStorage.getItem("hour16"));
 $("#hour17 .description").val(localStorage.getItem("hour17"));
 
 timeKeeper();
+//save button
 $(document).ready(function () {
     $(".saveBtn").on("click", function () {
         
         text = $(this).siblings(".description").val();
         time = $(this).parent().attr("id");
-
+//saves entered text
         localStorage.setItem(time, text);
     })
 })
