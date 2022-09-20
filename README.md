@@ -15,7 +15,8 @@
 
 ## Webpage
 
-![](.)
+![](./assets/Screen%20Shot%202022-09-20%20at%204.10.41%20PM.png)
+![](./assets/Screen%20Shot%202022-09-20%20at%204.10.56%20PM.png)
 
 
 
