@@ -76,3 +76,23 @@ body {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
+  @media screen and (max-width: 1100px){
+    .hour-block:first-child{
+        flex: 100%;
+    }
+    .hour-block{
+        flex: 45%;
+        margin: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 800px){
+    .hour-block{
+        flex: 100%;
+    }
+  }
+  @media screen and (max-width: 300px){
+    .hour-block{
+        flex: 100%;
+    }
+  }
